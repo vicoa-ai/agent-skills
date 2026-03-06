@@ -44,13 +44,13 @@ Follow this workflow.
 - Print final output as Markdown bullets only, with `*` at the beginning of each line.
 - Extract the tunnel URL from provider output and include it as `public_url`.
 - Include exactly these fields, one per line:
-* `status`: `ok` or `error`
-* `provider`: `cloudflare`, `ngrok`, or `none`
-* `local_url`: local URL such as `http://127.0.0.1:3000`
-* `port`: numeric local port
-* `pid`: process id or `null`
-* `message`: short actionable summary
-* `public_url`: tunnel URL or `null`
+* status: ok or error
+* provider: cloudflare, ngrok, or none
+* local_url: local URL such as http://127.0.0.1:3000
+* port: numeric local port
+* pid: process id or null
+* message: short actionable summary
+* public_url: tunnel URL or null
 - Do not print secrets.
 - Keep `message` concise and actionable.
 
