@@ -25,6 +25,14 @@ npx skills add vicoa-ai/agent-skills
 
 Then select `live-preview` when prompted.
 
+If you want to force Claude Code as the install target, use:
+
+```bash
+npx skills add vicoa-ai/agent-skills --agent claude-code
+```
+
+The `--agent claude-code` flag ensures the skill is installed or symbol linked into `.claude/skills/` instead of `.agents/skills/`.
+
 ### Option 2: manual install (project-local)
 
 ```bash
